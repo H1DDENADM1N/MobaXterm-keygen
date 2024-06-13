@@ -1,0 +1,22 @@
+[project]
+name = "MobaXterm-keygen"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "H1DDENADM1N", email = "65646535+H1DDENADM1N@users.noreply.github.com"},
+]
+dependencies = [
+    "pywin32>=306",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "GPLv3"}
+
+
+[tool.pdm]
+distribution = false
+
+[tool.pdm.dev-dependencies]
+gui = [
+    "PySide6>=6.7.1",
+]
